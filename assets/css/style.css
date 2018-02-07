@@ -1,38 +1,30 @@
 .Background {
-    background-color: beige;
+  background-color: beige;
+}
+
+.Name {
+  position: fixed;
+  top: 60px;
+  bottom: 300px;
+  left:500px;
+  background-color: aqua;
+}
+
+  .Header {
+   }
+
+  .Section {
   }
 
-  .Name {
-    float: left;
-    text-align: center;
-    padding: 45px;
-    margin: 35px;
-    background-color: yellow;
-    }
-  
-    .Header {
-      text-align: right;
-      padding: 5px;
-      margin:20px;
-      background-color: blueviolet;
-    }
+  .Aside {
+    float: right;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+  }
 
-    .Section {
-      text-align: center;
-      height: 120px;
-      width: 500px;
-      background-color: blue;
-    }
-
-    .Aside {
-      float: right;
-      height: 150px;
-      width: 150px;
-      background-color: aqua;
-    }
-
-    .Fotter {
-      height: 80px;
-      width: 100%;
-      background-color: black;
-    }
+  .Fotter {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+  }
